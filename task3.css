@@ -1,0 +1,41 @@
+.div1{
+width: 100px;
+height: 100px;
+transition: all ease-in-out 1s;
+background-color: aqua;
+display: inline-block;
+}
+.div1:hover{
+    transform: translate(100px,50px);
+}
+.div2{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    display: inline-block;
+}
+    
+    .div2:hover{
+        transform: rotate(20deg);
+    }
+    .div3{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        display: inline-block;
+}
+        
+    .div3:hover {
+        transform: scaleY(1.5);
+      }
+      
+      .div4{
+        width: 100px;
+        height: 100px;
+        background-color: black;
+        display: inline-block;
+}
+        
+      .div4:hover {
+        transform: skewY(20deg);
+      }
